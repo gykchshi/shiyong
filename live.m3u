@@ -1,107 +1,63 @@
 #EXTM3U
-# ============================================================
-#  影视仓专用精简直播源模板（示例版）
-#  适用：影视仓 / TVBox / 各类 IPTV 播放器
-#  编码：必须是 UTF-8 无 BOM（否则中文台名乱码）
-#  结构：#EXTINF 一行 + 直链一行，一一对应，不要空行
-#  说明：下方为可直接使用的「央视/卫视/体育/云南本地台」示例源
-#        公开源可能随时失效，建议用 check_source.py 自检后替换
-# ============================================================
-
-# ---------- 央视（中央台）----------
-#EXTINF:-1 tvg-name="CCTV-1 综合" group-title="央视",CCTV-1 综合
-https://cctv1.v.kuaishouimg.com/live/cctv/1.m3u8
-#EXTINF:-1 tvg-name="CCTV-2 财经" group-title="央视",CCTV-2 财经
-https://cctv2.v.kuaishouimg.com/live/cctv/2.m3u8
-#EXTINF:-1 tvg-name="CCTV-3 综艺" group-title="央视",CCTV-3 综艺
-https://cctv3.v.kuaishouimg.com/live/cctv/3.m3u8
-#EXTINF:-1 tvg-name="CCTV-4 中文国际" group-title="央视",CCTV-4 中文国际
-https://cctv4.v.kuaishouimg.com/live/cctv/4.m3u8
-#EXTINF:-1 tvg-name="CCTV-5 体育" group-title="央视体育",CCTV-5 体育
-https://cctv5.v.kuaishouimg.com/live/cctv/5.m3u8
-#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事" group-title="央视体育",CCTV-5+ 体育赛事
-https://cctv5plus.v.kuaishouimg.com/live/cctv/5plus.m3u8
-#EXTINF:-1 tvg-name="CCTV-6 电影" group-title="央视",CCTV-6 电影
-https://cctv6.v.kuaishouimg.com/live/cctv/6.m3u8
-#EXTINF:-1 tvg-name="CCTV-7 国防军事" group-title="央视",CCTV-7 国防军事
-https://cctv7.v.kuaishouimg.com/live/cctv/7.m3u8
-#EXTINF:-1 tvg-name="CCTV-8 电视剧" group-title="央视",CCTV-8 电视剧
-https://cctv8.v.kuaishouimg.com/live/cctv/8.m3u8
-#EXTINF:-1 tvg-name="CCTV-9 纪录" group-title="央视",CCTV-9 纪录
-https://cctv9.v.kuaishouimg.com/live/cctv/9.m3u8
-#EXTINF:-1 tvg-name="CCTV-10 科教" group-title="央视",CCTV-10 科教
-https://cctv10.v.kuaishouimg.com/live/cctv/10.m3u8
-#EXTINF:-1 tvg-name="CCTV-11 戏曲" group-title="央视",CCTV-11 戏曲
-https://cctv11.v.kuaishouimg.com/live/cctv/11.m3u8
-#EXTINF:-1 tvg-name="CCTV-12 社会与法" group-title="央视",CCTV-12 社会与法
-https://cctv12.v.kuaishouimg.com/live/cctv/12.m3u8
-#EXTINF:-1 tvg-name="CCTV-13 新闻" group-title="央视",CCTV-13 新闻
-https://cctv13.v.kuaishouimg.com/live/cctv/13.m3u8
-#EXTINF:-1 tvg-name="CCTV-14 少儿" group-title="央视",CCTV-14 少儿
-https://cctv14.v.kuaishouimg.com/live/cctv/14.m3u8
-#EXTINF:-1 tvg-name="CCTV-15 音乐" group-title="央视",CCTV-15 音乐
-https://cctv15.v.kuaishouimg.com/live/cctv/15.m3u8
-#EXTINF:-1 tvg-name="CCTV-16 奥林匹克" group-title="央视体育",CCTV-16 奥林匹克
-https://cctv16.v.kuaishouimg.com/live/cctv/16.m3u8
-#EXTINF:-1 tvg-name="CCTV-17 农业农村" group-title="央视",CCTV-17 农业农村
-https://cctv17.v.kuaishouimg.com/live/cctv/17.m3u8
-
-# ---------- 卫视（省级卫视精选）----------
+#EXTINF:-1 tvg-name="CCTV-1" group-title="央视",CCTV-1
+https://live.fanmingming.com/tv/m3u/ipv6.m3u
+#EXTINF:-1 tvg-name="CCTV-1" group-title="央视",CCTV-1
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000011
+#EXTINF:-1 tvg-name="CCTV-2" group-title="央视",CCTV-2
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000012
+#EXTINF:-1 tvg-name="CCTV-3" group-title="央视",CCTV-3
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000013
+#EXTINF:-1 tvg-name="CCTV-4" group-title="央视",CCTV-4
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000014
+#EXTINF:-1 tvg-name="CCTV-5" group-title="体育",CCTV-5
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000015
+#EXTINF:-1 tvg-name="CCTV-5+" group-title="体育",CCTV-5+
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000016
+#EXTINF:-1 tvg-name="CCTV-6" group-title="央视",CCTV-6
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000017
+#EXTINF:-1 tvg-name="CCTV-7" group-title="央视",CCTV-7
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000018
+#EXTINF:-1 tvg-name="CCTV-8" group-title="央视",CCTV-8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000019
+#EXTINF:-1 tvg-name="CCTV-9" group-title="央视",CCTV-9
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000020
+#EXTINF:-1 tvg-name="CCTV-10" group-title="央视",CCTV-10
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000021
+#EXTINF:-1 tvg-name="CCTV-11" group-title="央视",CCTV-11
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000022
+#EXTINF:-1 tvg-name="CCTV-12" group-title="央视",CCTV-12
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000023
+#EXTINF:-1 tvg-name="CCTV-13" group-title="央视",CCTV-13
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000024
+#EXTINF:-1 tvg-name="CCTV-14" group-title="央视",CCTV-14
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000025
+#EXTINF:-1 tvg-name="CCTV-15" group-title="央视",CCTV-15
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000026
 #EXTINF:-1 tvg-name="湖南卫视" group-title="卫视",湖南卫视
-https://hunan.v.kuaishouimg.com/live/sat/hunan.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000101
 #EXTINF:-1 tvg-name="浙江卫视" group-title="卫视",浙江卫视
-https://zhejiang.v.kuaishouimg.com/live/sat/zhejiang.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000102
 #EXTINF:-1 tvg-name="江苏卫视" group-title="卫视",江苏卫视
-https://jiangsu.v.kuaishouimg.com/live/sat/jiangsu.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000103
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视",东方卫视
-https://dongfang.v.kuaishouimg.com/live/sat/dongfang.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000104
 #EXTINF:-1 tvg-name="北京卫视" group-title="卫视",北京卫视
-https://beijing.v.kuaishouimg.com/live/sat/beijing.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000105
 #EXTINF:-1 tvg-name="广东卫视" group-title="卫视",广东卫视
-https://guangdong.v.kuaishouimg.com/live/sat/guangdong.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000106
 #EXTINF:-1 tvg-name="深圳卫视" group-title="卫视",深圳卫视
-https://shenzhen.v.kuaishouimg.com/live/sat/shenzhen.m3u8
-#EXTINF:-1 tvg-name="安徽卫视" group-title="卫视",安徽卫视
-https://anhui.v.kuaishouimg.com/live/sat/anhui.m3u8
-#EXTINF:-1 tvg-name="山东卫视" group-title="卫视",山东卫视
-https://shandong.v.kuaishouimg.com/live/sat/shandong.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视",湖北卫视
-https://hubei.v.kuaishouimg.com/live/sat/hubei.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000107
 #EXTINF:-1 tvg-name="四川卫视" group-title="卫视",四川卫视
-https://sichuan.v.kuaishouimg.com/live/sat/sichuan.m3u8
-#EXTINF:-1 tvg-name="重庆卫视" group-title="卫视",重庆卫视
-https://chongqing.v.kuaishouimg.com/live/sat/chongqing.m3u8
-#EXTINF:-1 tvg-name="天津卫视" group-title="卫视",天津卫视
-https://tianjin.v.kuaishouimg.com/live/sat/tianjin.m3u8
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视",东南卫视
-https://dongnan.v.kuaishouimg.com/live/sat/dongnan.m3u8
-#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视",贵州卫视
-https://guizhou.v.kuaishouimg.com/live/sat/guizhou.m3u8
-#EXTINF:-1 tvg-name="江西卫视" group-title="卫视",江西卫视
-https://jiangxi.v.kuaishouimg.com/live/sat/jiangxi.m3u8
-#EXTINF:-1 tvg-name="云南卫视" group-title="云南本地台",云南卫视
-https://yunnan.v.kuaishouimg.com/live/sat/yunnan.m3u8
-
-# ---------- 体育赛事 ----------
-#EXTINF:-1 tvg-name="CCTV-5 体育" group-title="体育赛事",CCTV-5 体育
-https://cctv5.v.kuaishouimg.com/live/cctv/5.m3u8
-#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事" group-title="体育赛事",CCTV-5+ 体育赛事
-https://cctv5plus.v.kuaishouimg.com/live/cctv/5plus.m3u8
-#EXTINF:-1 tvg-name="CCTV-16 奥林匹克" group-title="体育赛事",CCTV-16 奥林匹克
-https://cctv16.v.kuaishouimg.com/live/cctv/16.m3u8
-
-# ---------- 云南本地台（临沧/昆明可看）----------
-#EXTINF:-1 tvg-name="云南卫视" group-title="云南本地台",云南卫视
-https://yunnan.v.kuaishouimg.com/live/sat/yunnan.m3u8
-#EXTINF:-1 tvg-name="云南都市频道" group-title="云南本地台",云南都市频道
-https://ynyunnan.v.kuaishouimg.com/live/yunnan/dushi.m3u8
-#EXTINF:-1 tvg-name="云南公共频道" group-title="云南本地台",云南公共频道
-https://ynyunnan.v.kuaishouimg.com/live/yunnan/gonggong.m3u8
-#EXTINF:-1 tvg-name="云南少儿频道" group-title="云南本地台",云南少儿频道
-https://ynyunnan.v.kuaishouimg.com/live/yunnan/shaoer.m3u8
-#EXTINF:-1 tvg-name="云南娱乐频道" group-title="云南本地台",云南娱乐频道
-https://ynyunnan.v.kuaishouimg.com/live/yunnan/yule.m3u8
-#EXTINF:-1 tvg-name="临沧电视台" group-title="云南本地台",临沧电视台
-https://lincang.v.kuaishouimg.com/live/lincang/lc1.m3u8
-#EXTINF:-1 tvg-name="昆明电视台 K1" group-title="云南本地台",昆明电视台 K1
-https://kunming.v.kuaishouimg.com/live/kunming/k1.m3u8
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000108
+#EXTINF:-1 tvg-name="云南卫视" group-title="云南",云南卫视
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000109
+#EXTINF:-1 tvg-name="云南都市" group-title="云南",云南都市频道
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000110
+#EXTINF:-1 tvg-name="云南公共" group-title="云南",云南公共频道
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000111
+#EXTINF:-1 tvg-name="云南少儿" group-title="云南",云南少儿频道
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000112
+#EXTINF:-1 tvg-name="临沧电视台" group-title="云南",临沧电视台
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000113
+#EXTINF:-1 tvg-name="昆明K1" group-title="云南",昆明电视台K1
+http://[2409:8087:2001:20:3::]:6610/ZTE_CMS/10000100000000100000000000000114
